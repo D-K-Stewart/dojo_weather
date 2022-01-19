@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DojoWeather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="nav">
+        <h1 class="title">Dojonary</h1>
+        <ul class="list">
+            <li onclick="pagealert()"><a href="#">Burbank</a></li>
+            <li onclick="pagealert()"><a href="#">Chicago</a></li>
+            <li onclick="pagealert()"><a href="#">Dallas</a></li>
+        </ul>
+    
+    </div> 
+    <div class="san">
+        <h4>San Jose</h4>
+        <p>show temperature in</p>
+        <button></button>
+    </div>
+    
+        <div class="main1">
+            <div class="box">
+                <h2>Today</h2>
+                <img id="pics" src="some_rain.png" alt="somerain">
+                <h3>some rain</h3>
+                <ul class="nums">
+                    <li id="red">24°</li>
+                    <li id="blue">18°</li>
+                </ul>
+            </div>
+        
+        
+        <div class="box">
+            <h2>Tomorrow</h2>
+            <img id="pics" src="some_sun.png" alt="somesun">
+            <h3>some sun</h3>
+            <ul class="nums">
+                <li id="red">27°</li>
+                <li id="blue">29°</li>
+            </ul>
+        </div>
+        
+
+        <div class="box">
+            <h2>Friday</h2>
+            <img id="pics" src="some_clouds.png" alt="someclouds">
+            <h3>some clouds</h3>
+            <ul class="nums">
+                <li id="red">21°</li>
+                <li id="blue">26°</li>
+            </ul>
+        </div>
+        
+        
+        <div class="box">
+            <h2>Saturday</h2>
+            <img id="pics" src="some_sun.png" alt="somesun">
+            <h3>some sun</h3>
+            <ul class="nums">
+                <li id="red">26°</li>
+                <li id="blue">21°</li>
+            </ul>
+        </div>
+        
+
+    </div>
+    <div id="delete" class="bottom">
+        <img id="pic2" src="cookie.png" alt="cookie">
+        <ul class="tom">
+            <li class="stop">Stop! Cookie time</li>
+            <li class="we">We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analize our traffic. <span class="read">Read More...</span></li>
+        </ul>
+        <button onclick="remove(this)" class="accept">I Accept</button>
+    
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
